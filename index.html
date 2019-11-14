@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+		<head>
+			<meta charset="utf-8">
+			<title>To-Do</title>
+				<link  type="text/css"  rel="stylesheet" href="css/index.css">
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+				
+					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+					<!-- jQuery library -->
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+					<!-- Popper JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+					<!-- Latest compiled JavaScript -->
+					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		</head>
+		<body>
+			<header>
+				<div class="shadow-lg p-3 mb-5 bg-white rounded">
+					<h2><i class="far fa-sticky-note"></i> To-do list</h2>
+				</div>	
+			</header>
+			<div class="about">
+				<h3>To-Do Is a great device <br/>
+				for managing time that<br />
+				enables you to lay out <br/>
+				everything that you need <br/>
+				to accomplish and plan <br/>and prioritize your day from there.</h3>
+				<div class="forms">
+					
+			
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+						  Add New Task
+						</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Add New Task</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+										</button>
+							  </div>
+							  <div class="modal-body">
+									<form>
+											Task title:<br>
+											<input type="text" name="title"><br>
+											Task description:<br>
+											<input type="text" name="description">
+									</form>
+								</div>
+							   <div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Add Task</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Button to Open the Modal -->
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+										  Edit Task
+										</button>
+
+										<!-- The Modal -->
+										<div class="modal" id="myModal">
+										  <div class="modal-dialog">
+											<div class="modal-content">
+
+											  <!-- Modal Header -->
+											  <div class="modal-header">
+												<h4 class="modal-title"> Edit Task</h4>
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+											  </div>
+
+											  <!-- Modal body -->
+											  <div class="modal-body">
+											   <form>
+																					Task Id:<br>
+																					<input type="text" name="id"><br>
+																					Task title:<br>
+																					<input type="text" name="title"><br>
+																					Task description:<br>
+																					<input type="text" name="description">
+																			</form>
+											  </div>
+
+											  <!-- Modal footer -->
+											  <div class="modal-footer">
+												<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-primary"> Edit Task</button>
+											  </div>
+
+											</div>
+										  </div>
+										</div>
+		        </div>
+				
+			</div>
+			<div class="task">
+			
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<h3>ID:1 <button type="button" class="btn btn-danger delete">Delete</button></h3>
+					<hr/>
+					<h3>Study</h3>
+					<hr/>
+					<h4>o task is to drain someone's resources or to assign someone to do a particular job. An example of task is when a child took all his parent's energy. An example of task is when you assign Joe the job of taking out the garbage.</h4>
+				</div>
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<h3>ID:2  <button type="button" class="btn btn-danger delete">Delete</button></h3>
+					<hr/>
+					<h3>Jogging</h3>
+					<hr/>
+					<h4>o task is to drain someone's resources or to assign someone to do a particular job. An example of task is when a child took all his parent's energy. An example of task is when you assign Joe the job of taking out the garbage.</h4>
+				</div>
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<h3>ID:3  <button type="button" class="btn btn-danger delete">Delete</button></h3>
+					<hr/>
+					<h3>Cooking</h3>
+					<hr/>
+					<h4>o task is to drain someone's resources or to assign someone to do a particular job. An example of task is when a child took all his parent's energy. An example of task is when you assign Joe the job of taking out the garbage.</h4>
+				</div>
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<h3>ID:4  <button type="button" class="btn btn-danger delete">Delete</button></h3>
+					<hr/>
+					<h3>Rest</h3>
+					<hr/>
+					<h4>o task is to drain someone's resources or to assign someone to do a particular job. An example of task is when a child took all his parent's energy. An example of task is when you assign Joe the job of taking out the garbage.</h4>
+				</div>
+					
+			
+			
+			
+			</div>
+			
+
+			
+		</body>	
+</html>

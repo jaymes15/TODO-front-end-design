@@ -1,0 +1,43 @@
+header{
+	font-family:Edwardian Script ITC;
+	color:purple;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+header h2{
+	margin-left:100px;
+	font-size:40px;
+}
+
+.about{
+	background-image:url(../images/310615.jpg);
+	background-repeat:   no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	height:450px;
+	margin-top:90px;	
+}
+
+.about h3{
+	color:purple;
+	font-family:Agency FB;
+	margin-left:40px;
+	margin-right:40px;
+	font-size:50px;
+	
+}
+
+.forms{
+	margin-left:40px;
+	margin-right:40px;
+}
+
+.task{
+	margin:50px;
+}
+
+.delete{
+	float:right;
+}
